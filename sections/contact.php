@@ -11,7 +11,7 @@
         <div class="row g-3 justify-content-center">
             <div class="col-sm-6 col-md-4">
                 <a class="contact-cta contact-cta-phone d-flex align-items-center justify-content-center gap-3 p-4 rounded-3 text-decoration-none" href="tel:+918010870124">
-                    <span class="material-symbols-outlined contact-cta-icon">call</span>
+                    <i class="bi bi-telephone-fill contact-cta-icon"></i>
                     <div class="text-start">
                         <span class="contact-cta-label d-block small text-white-60">Call us</span>
                         <span class="contact-cta-value text-white fw-bold">+91 80108 70124</span>
@@ -20,7 +20,7 @@
             </div>
             <div class="col-sm-6 col-md-4">
                 <a class="contact-cta contact-cta-whatsapp d-flex align-items-center justify-content-center gap-3 p-4 rounded-3 text-decoration-none" href="https://wa.me/918010870124" target="_blank" rel="noopener noreferrer">
-                    <span class="material-symbols-outlined contact-cta-icon">chat</span>
+                    <i class="bi bi-whatsapp contact-cta-icon"></i>
                     <div class="text-start">
                         <span class="contact-cta-label d-block small text-white-60">Chat on WhatsApp</span>
                         <span class="contact-cta-value text-white fw-bold">+91 80108 70124</span>

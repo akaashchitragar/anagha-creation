@@ -12,8 +12,8 @@
         <div class="row g-4">
             <div class="col-md-6 col-lg-4">
                 <div class="glass-panel service-card p-4 rounded-3 h-100 position-relative overflow-hidden">
-                    <div class="service-icon rounded-circle mb-3 d-flex align-items-center justify-content-center">
-                        <span class="material-symbols-outlined text-primary fw-bold">content_cut</span>
+                    <div class="service-icon rounded-circle mb-3 d-flex align-items-center justify-content-center text-primary">
+                        <?php echo file_get_contents(__DIR__ . '/../assets/icons/blouse.svg'); ?>
                     </div>
                     <h3 class="font-serif fs-4 fw-bold text-white mb-1">Designer Blouse</h3>
                     <p class="text-white-60 small mb-3">डिझायनर ब्लाउज</p>
@@ -22,8 +22,8 @@
             </div>
             <div class="col-md-6 col-lg-4">
                 <div class="glass-panel service-card p-4 rounded-3 h-100 position-relative overflow-hidden">
-                    <div class="service-icon rounded-circle mb-3 d-flex align-items-center justify-content-center">
-                        <span class="material-symbols-outlined text-primary fw-bold">apparel</span>
+                    <div class="service-icon rounded-circle mb-3 d-flex align-items-center justify-content-center text-primary">
+                        <?php echo file_get_contents(__DIR__ . '/../assets/icons/lehenga.svg'); ?>
                     </div>
                     <h3 class="font-serif fs-4 fw-bold text-white mb-1">Bridal Ghagra</h3>
                     <p class="text-white-60 small mb-3">ब्रायडल घागरा</p>
@@ -32,8 +32,8 @@
             </div>
             <div class="col-md-6 col-lg-4">
                 <div class="glass-panel service-card p-4 rounded-3 h-100 position-relative overflow-hidden">
-                    <div class="service-icon rounded-circle mb-3 d-flex align-items-center justify-content-center">
-                        <span class="material-symbols-outlined text-primary fw-bold">star</span>
+                    <div class="service-icon rounded-circle mb-3 d-flex align-items-center justify-content-center text-primary">
+                        <?php echo file_get_contents(__DIR__ . '/../assets/icons/kurta.svg'); ?>
                     </div>
                     <h3 class="font-serif fs-4 fw-bold text-white mb-1">Kruti and Chudidar Tops</h3>
                     <p class="text-white-60 small mb-3">कुर्ती आणि चुडीदार टॉप्स</p>
@@ -42,18 +42,18 @@
             </div>
             <div class="col-md-6 col-lg-4">
                 <div class="glass-panel service-card p-4 rounded-3 h-100 position-relative overflow-hidden">
-                    <div class="service-icon rounded-circle mb-3 d-flex align-items-center justify-content-center">
-                        <span class="material-symbols-outlined text-primary fw-bold">palette</span>
+                    <div class="service-icon rounded-circle mb-3 d-flex align-items-center justify-content-center text-primary">
+                        <?php echo file_get_contents(__DIR__ . '/../assets/icons/saree.svg'); ?>
                     </div>
-                    <h3 class="font-serif fs-4 fw-bold text-white mb-1">Sarees</h3>
-                    <p class="text-white-60 small mb-3">साडी</p>
-                    <p class="text-white-80 small mb-0">Curated sarees, custom border attachments, tailor-made for your blouse or occasion.</p>
+                    <h3 class="font-serif fs-4 fw-bold text-white mb-1">Nau Vari</h3>
+                    <p class="text-white-60 small mb-3">नववरी साडी</p>
+                    <p class="text-white-80 small mb-0">Traditional nine-yard Maharashtrian drape in silk, cotton, or satin—for Ganesh Chaturthi, Gudi Padwa, and weddings, with custom borders and blouses.</p>
                 </div>
             </div>
             <div class="col-md-6 col-lg-4">
                 <div class="glass-panel service-card p-4 rounded-3 h-100 position-relative overflow-hidden">
-                    <div class="service-icon rounded-circle mb-3 d-flex align-items-center justify-content-center">
-                        <span class="material-symbols-outlined text-primary fw-bold">child_care</span>
+                    <div class="service-icon rounded-circle mb-3 d-flex align-items-center justify-content-center text-primary">
+                        <?php echo file_get_contents(__DIR__ . '/../assets/icons/child-wear.svg'); ?>
                     </div>
                     <h3 class="font-serif fs-4 fw-bold text-white mb-1">Kids Wear</h3>
                     <p class="text-white-60 small mb-3">लहान मुलांचे कपडे</p>
@@ -62,8 +62,8 @@
             </div>
             <div class="col-md-6 col-lg-4">
                 <div class="glass-panel service-card p-4 rounded-3 h-100 position-relative overflow-hidden">
-                    <div class="service-icon rounded-circle mb-3 d-flex align-items-center justify-content-center">
-                        <span class="material-symbols-outlined text-primary fw-bold">architecture</span>
+                    <div class="service-icon rounded-circle mb-3 d-flex align-items-center justify-content-center text-primary">
+                        <?php echo file_get_contents(__DIR__ . '/../assets/icons/scissors.svg'); ?>
                     </div>
                     <h3 class="font-serif fs-4 fw-bold text-white mb-1">Alterations</h3>
                     <p class="text-white-60 small mb-3">अल्टरेशन</p>

@@ -22,7 +22,7 @@
                 Explore My Craft <span class="material-symbols-outlined small">arrow_forward</span>
             </a>
             <a class="btn btn-hero-solid d-inline-flex align-items-center justify-content-center gap-2" href="https://wa.me/918010870124" target="_blank" rel="noopener noreferrer">
-                WhatsApp Now <span class="material-symbols-outlined">chat</span>
+                WhatsApp Now <i class="bi bi-whatsapp"></i>
             </a>
         </div>
     </div>

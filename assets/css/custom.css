@@ -352,6 +352,11 @@ img { max-width: 100%; height: auto; }
     background: linear-gradient(135deg, var(--gold), #b8860b);
     box-shadow: 0 10px 15px -3px rgba(0,0,0,0.2);
 }
+.service-icon svg {
+    width: 60%;
+    height: 60%;
+    flex-shrink: 0;
+}
 .service-icon-bg { font-size: 4rem !important; }
 
 /* Gallery */
