@@ -14,7 +14,7 @@
                 <a class="btn btn-outline-gold rounded-pill px-4 py-2 fw-bold" href="tel:+918010870124">Call Now</a>
             </div>
             <button class="d-md-none btn btn-link text-gold p-0 nav-mobile-toggle" type="button" aria-label="Menu" aria-expanded="false" aria-controls="nav-mobile-menu" data-bs-toggle="collapse" data-bs-target="#nav-mobile-menu">
-                <span class="material-symbols-outlined fs-1 nav-mobile-icon">menu</span>
+                <i class="bi bi-list fs-1 nav-mobile-icon"></i>
             </button>
         </div>
         <div class="collapse d-md-none" id="nav-mobile-menu">

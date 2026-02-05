@@ -19,7 +19,7 @@
         </div>
         <div class="d-flex flex-column flex-sm-row gap-3 justify-content-center mt-4">
             <a class="btn btn-hero-outline d-inline-flex align-items-center justify-content-center gap-2" href="#gallery">
-                Explore My Craft <span class="material-symbols-outlined small">arrow_forward</span>
+                Explore My Craft <i class="bi bi-arrow-right small"></i>
             </a>
             <a class="btn btn-hero-solid d-inline-flex align-items-center justify-content-center gap-2" href="https://wa.me/918010870124" target="_blank" rel="noopener noreferrer">
                 WhatsApp Now <i class="bi bi-whatsapp"></i>
@@ -27,6 +27,6 @@
         </div>
     </div>
     <div class="scroll-indicator position-absolute bottom-0 start-50 translate-middle-x text-gold">
-        <span class="material-symbols-outlined fs-1">keyboard_arrow_down</span>
+        <i class="bi bi-chevron-down fs-1"></i>
     </div>
 </section>

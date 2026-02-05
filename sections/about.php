@@ -10,7 +10,7 @@
                         <div class="about-img-cover w-100 h-100" style="background-image: url('https://res.cloudinary.com/dsn3mtgjf/image/upload/v1770279641/kavita-pic_dp0xdk.jpg');"></div>
                     </div>
                     <div class="position-absolute decorative-flourish text-gold-20">
-                        <span class="material-symbols-outlined display-1">local_florist</span>
+                        <i class="bi bi-flower1 display-1"></i>
                     </div>
                 </div>
             </div>
