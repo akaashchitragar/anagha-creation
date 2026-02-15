@@ -2,7 +2,6 @@
     <div class="gallery-bg-pattern"></div>
     <div class="container position-relative z-2">
         <div class="text-center mb-5">
-            <span class="text-secondary fw-bold text-uppercase small d-block mb-2">Portfolio</span>
             <h2 class="font-serif display-4 fw-bold text-primary">Masterpiece Gallery</h2>
             <div class="d-flex align-items-center justify-content-center gap-3 mt-3">
                 <div class="bg-gold" style="width: 48px; height: 1px;"></div>
