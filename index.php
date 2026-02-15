@@ -8,5 +8,6 @@ header('X-Robots-Tag: index, follow, max-image-preview:large, max-snippet:-1, ma
 <?php include __DIR__ . '/sections/services.php'; ?>
 <?php include __DIR__ . '/sections/gallery.php'; ?>
 <?php include __DIR__ . '/sections/about.php'; ?>
+<?php include __DIR__ . '/sections/faq.php'; ?>
 <?php include __DIR__ . '/sections/contact.php'; ?>
 <?php include __DIR__ . '/includes/footer.php'; ?>

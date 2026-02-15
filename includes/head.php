@@ -94,6 +94,59 @@ $page_modified = date('c');
                 "datePublished": "<?php echo htmlspecialchars($page_published); ?>",
                 "dateModified": "<?php echo htmlspecialchars($page_modified); ?>",
                 "isPartOf": { "@id": "<?php echo htmlspecialchars($site_domain); ?>/#website" }
+            },
+            {
+                "@type": "FAQPage",
+                "mainEntity": [
+                    {
+                        "@type": "Question",
+                        "name": "What services does Anagha Creation offer?",
+                        "acceptedAnswer": {
+                            "@type": "Answer",
+                            "text": "We specialise in designer blouses, bridal ghagras (lehengas), kurtis and chudidar tops, nau vari (nine-yard sarees), kids ethnic wear, and expert alterations. Every garment is custom-made to your measurements and style preferences."
+                        }
+                    },
+                    {
+                        "@type": "Question",
+                        "name": "Where is Anagha Creation located?",
+                        "acceptedAnswer": {
+                            "@type": "Answer",
+                            "text": "Our boutique is located in Rajarampuri, Kolhapur, Maharashtra, India. You can reach us directly on WhatsApp at +91 80108 70124."
+                        }
+                    },
+                    {
+                        "@type": "Question",
+                        "name": "How do I place a custom order?",
+                        "acceptedAnswer": {
+                            "@type": "Answer",
+                            "text": "Simply reach out to us via WhatsApp or call us at +91 80108 70124. Share your design idea, fabric preference, and measurements. We'll discuss the details, provide a quote, and begin crafting your outfit once confirmed."
+                        }
+                    },
+                    {
+                        "@type": "Question",
+                        "name": "How long does it take to complete a custom outfit?",
+                        "acceptedAnswer": {
+                            "@type": "Answer",
+                            "text": "Turnaround time depends on the complexity of the design. A designer blouse typically takes 7–10 days, while bridal ghagras and heavily embroidered outfits may take 3–4 weeks. We recommend placing orders well in advance for weddings and festivals."
+                        }
+                    },
+                    {
+                        "@type": "Question",
+                        "name": "Do you provide fabric or should I bring my own?",
+                        "acceptedAnswer": {
+                            "@type": "Answer",
+                            "text": "Both options are available. You can bring your own fabric, or we can source premium fabrics for you based on your design and budget. We work with silks, velvets, georgettes, cottons, and more."
+                        }
+                    },
+                    {
+                        "@type": "Question",
+                        "name": "Do you offer alterations for existing garments?",
+                        "acceptedAnswer": {
+                            "@type": "Answer",
+                            "text": "Yes, we offer expert fitting and alterations for blouses, sarees, kurtis, and other outfits. Whether it's resizing, hemming, or modifying the design, we ensure a perfect fit every time."
+                        }
+                    }
+                ]
             }
         ]
     }
