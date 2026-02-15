@@ -9,7 +9,7 @@
     <div class="container position-relative z-2 text-center">
         <div class="hero-logo mb-4">
             <div class="hero-logo-wrap mx-auto">
-                <img src="https://res.cloudinary.com/dsn3mtgjf/image/upload/v1770278050/anagha-logo-core_ealfj1.png" alt="Anagha Creation" class="hero-logo-img" width="180" height="180"/>
+                <img src="<?php echo LOGO_URL; ?>" alt="Anagha Creation" class="hero-logo-img" width="180" height="180"/>
             </div>
         </div>
         <div class="hero-tagline mb-4">
@@ -21,7 +21,7 @@
             <a class="btn btn-hero-outline d-inline-flex align-items-center justify-content-center gap-2" href="#gallery">
                 Explore My Craft <i class="bi bi-arrow-right small"></i>
             </a>
-            <a class="btn btn-hero-solid d-inline-flex align-items-center justify-content-center gap-2" href="https://wa.me/918010870124" target="_blank" rel="noopener noreferrer">
+            <a class="btn btn-hero-solid d-inline-flex align-items-center justify-content-center gap-2" href="<?php echo WHATSAPP_URL; ?>" target="_blank" rel="noopener noreferrer">
                 WhatsApp Now <i class="bi bi-whatsapp"></i>
             </a>
         </div>

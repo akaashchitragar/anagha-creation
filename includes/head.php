@@ -1,5 +1,5 @@
 <?php
-$site_domain = 'https://anaghacreation.in';
+$site_domain = SITE_DOMAIN;
 $canonical_url = $site_domain . preg_replace('/\?.*/', '', $_SERVER['REQUEST_URI'] ?? '/');
 $page_published = '2024-01-01T00:00:00+05:30';
 $page_modified = date('c');
@@ -11,7 +11,7 @@ $page_modified = date('c');
     <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
     <title>Anagha Creation | Designer Blouses & Bridal Wear Kolhapur</title>
     <meta name="description" content="Bespoke fashion and custom apparel in Kolhapur. Designer blouses, bridal wear, sarees. Where tradition meets elegance."/>
-    <meta name="keywords" content="designer blouses Kolhapur, bridal wear Kolhapur, custom blouse, bridal ghagra, sarees Kolhapur, Indo-Western wear, bespoke fashion, custom apparel, fashion designer Kolhapur, ethnic wear, alterations, Anagha Creation, Rajarampuri"/>
+    <meta name="keywords" content="Anagha Creation, Anagha Creation photos, Anagha Fashion, Anagha Fashions, Anaqacreation, designer blouses Kolhapur, bridal wear Kolhapur, custom blouse, bridal ghagra, sarees Kolhapur, Indo-Western wear, bespoke fashion, custom apparel, fashion designer Kolhapur, ethnic wear, alterations, Rajarampuri"/>
     <meta name="robots" content="index, follow, max-image-preview:large, max-snippet:-1, max-video-preview:-1"/>
     <meta name="googlebot" content="index, follow"/>
     <meta name="author" content="Anagha Creation"/>
@@ -24,10 +24,10 @@ $page_modified = date('c');
     <meta property="og:url" content="<?php echo htmlspecialchars($canonical_url); ?>"/>
     <meta property="og:type" content="website"/>
     <meta property="og:locale" content="en_IN"/>
-    <meta property="og:image" content="https://res.cloudinary.com/dsn3mtgjf/image/upload/v1770287986/og-image_prga88.png"/>
-    <meta property="og:image:secure_url" content="https://res.cloudinary.com/dsn3mtgjf/image/upload/v1770287986/og-image_prga88.png"/>
+    <meta property="og:image" content="<?php echo OG_IMAGE_URL; ?>"/>
+    <meta property="og:image:secure_url" content="<?php echo OG_IMAGE_URL; ?>"/>
     <meta name="twitter:card" content="summary_large_image"/>
-    <meta name="twitter:image" content="https://res.cloudinary.com/dsn3mtgjf/image/upload/v1770287986/og-image_prga88.png"/>
+    <meta name="twitter:image" content="<?php echo OG_IMAGE_URL; ?>"/>
     <link rel="llms-txt" href="/llms.txt"/>
     <link rel="preconnect" href="https://fonts.googleapis.com"/>
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin/>
@@ -36,12 +36,12 @@ $page_modified = date('c');
     <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css" rel="stylesheet"/>
     <link href="assets/css/custom.css" rel="stylesheet"/>
     <link rel="preconnect" href="https://www.googletagmanager.com"/>
-    <script async src="https://www.googletagmanager.com/gtag/js?id=G-VVNWGD50QF"></script>
+    <script async src="https://www.googletagmanager.com/gtag/js?id=<?php echo GA_ID; ?>"></script>
     <script>
         window.dataLayer = window.dataLayer || [];
         function gtag(){ dataLayer.push(arguments); }
         gtag('js', new Date());
-        gtag('config', 'G-VVNWGD50QF', {
+        gtag('config', '<?php echo GA_ID; ?>', {
             send_page_view: true,
             page_title: document.title,
             page_location: window.location.href,
@@ -56,11 +56,12 @@ $page_modified = date('c');
                 "@type": "LocalBusiness",
                 "@id": "<?php echo htmlspecialchars($site_domain); ?>/#localbusiness",
                 "name": "Anagha Creation",
+                "alternateName": ["Anagha Fashion", "Anagha Fashions", "Anaqacreation"],
                 "description": "Bespoke fashion and custom apparel in Kolhapur. Designer blouses, bridal wear, sarees. Where tradition meets elegance.",
                 "url": "<?php echo htmlspecialchars($canonical_url); ?>",
-                "image": "https://res.cloudinary.com/dsn3mtgjf/image/upload/v1770287986/og-image_prga88.png",
-                "logo": "https://res.cloudinary.com/dsn3mtgjf/image/upload/v1770278050/anagha-logo-core_ealfj1.png",
-                "telephone": "+918010870124",
+                "image": "<?php echo OG_IMAGE_URL; ?>",
+                "logo": "<?php echo LOGO_URL; ?>",
+                "telephone": "<?php echo PHONE_NUMBER; ?>",
                 "address": {
                     "@type": "PostalAddress",
                     "addressLocality": "Rajarampuri",

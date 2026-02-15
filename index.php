@@ -1,4 +1,5 @@
 <?php
+require_once __DIR__ . '/includes/config.php';
 header('X-Robots-Tag: index, follow, max-image-preview:large, max-snippet:-1, max-video-preview:-1');
 ?>
 <?php include __DIR__ . '/includes/head.php'; ?>

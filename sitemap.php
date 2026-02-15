@@ -1,6 +1,7 @@
 <?php
+require_once __DIR__ . '/includes/config.php';
 header('Content-Type: application/xml; charset=utf-8');
-$base = 'https://anaghacreation.in';
+$base = SITE_DOMAIN;
 $lastmod = date('c');
 echo '<?xml version="1.0" encoding="UTF-8"?>' . "\n";
 ?>

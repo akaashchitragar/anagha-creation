@@ -11,7 +11,7 @@
                 <a class="nav-link-custom" href="#about">About</a>
                 <a class="nav-link-custom" href="#services">Services</a>
                 <a class="nav-link-custom" href="#gallery">Gallery</a>
-                <a class="btn btn-outline-gold rounded-pill px-4 py-2 fw-bold" href="tel:+918010870124">Call Now</a>
+                <a class="btn btn-outline-gold rounded-pill px-4 py-2 fw-bold" href="tel:<?php echo PHONE_NUMBER; ?>">Call Now</a>
             </div>
             <button class="d-md-none btn btn-link text-gold p-0 nav-mobile-toggle" type="button" aria-label="Menu" aria-expanded="false" aria-controls="nav-mobile-menu" data-bs-toggle="collapse" data-bs-target="#nav-mobile-menu">
                 <i class="bi bi-list fs-1 nav-mobile-icon"></i>
@@ -23,7 +23,7 @@
                 <a class="nav-mobile-link d-block py-2 text-white text-decoration-none" href="#about">About</a>
                 <a class="nav-mobile-link d-block py-2 text-white text-decoration-none" href="#services">Services</a>
                 <a class="nav-mobile-link d-block py-2 text-white text-decoration-none" href="#gallery">Gallery</a>
-                <a class="btn btn-outline-gold rounded-pill mt-2 w-100 text-center" href="tel:+918010870124">Call Now</a>
+                <a class="btn btn-outline-gold rounded-pill mt-2 w-100 text-center" href="tel:<?php echo PHONE_NUMBER; ?>">Call Now</a>
             </div>
         </div>
     </div>

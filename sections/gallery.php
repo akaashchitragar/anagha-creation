@@ -1,58 +1,80 @@
-<section class="py-5 bg-blush" id="gallery">
-    <div class="container">
+<section class="gallery-section py-5 position-relative" id="gallery">
+    <div class="gallery-bg-pattern"></div>
+    <div class="container position-relative z-2">
         <div class="text-center mb-5">
+            <span class="text-secondary fw-bold text-uppercase small d-block mb-2">Portfolio</span>
             <h2 class="font-serif display-4 fw-bold text-primary">Masterpiece Gallery</h2>
-            <p class="text-slate-600 mt-3 mx-auto" style="max-width: 32rem;">A glimpse into our world of fabric, thread, and imagination.</p>
+            <div class="d-flex align-items-center justify-content-center gap-3 mt-3">
+                <div class="bg-gold" style="width: 48px; height: 1px;"></div>
+                <span class="text-gold-dim font-serif fst-italic">A glimpse into our world of fabric, thread &amp; imagination</span>
+                <div class="bg-gold" style="width: 48px; height: 1px;"></div>
+            </div>
         </div>
-        <div class="row g-4">
-            <div class="col-md-6 col-lg-4">
-                <div class="gallery-item rounded overflow-hidden position-relative">
-                    <div class="gallery-img aspect-3-4" style="background-image: url('https://lh3.googleusercontent.com/aida-public/AB6AXuDvew-ozwJpOYj5lgDsiRHCyUnfQ-18EDQSm0jzfENpoRSoptjB9gpAtQrYtg32o_2SYrtmvAFDNM5L7W2R1abVndUeLTNSGIDLpyY3Kf9qNFMcJN7elIFSECbkB7MLNGtMfVOivl-rjvNFoqwYJpWiFeCviHw5I1qkrSuoTAC0qfX4XrZbRyW_DDjRqXFIe5-9L9Qcu0whX0ervQbf69yWG5zI7jL4ZM_m-uMrikEL3P94v1KANprlHNHkqCQWqW8AB8xKTFE1O91j');"></div>
-                    <div class="gallery-overlay d-flex align-items-center justify-content-center">
-                        <span class="gallery-caption border border-2 border-gold p-3 text-white font-serif fs-4">Bridal Elegance</span>
+        <div class="gallery-masonry">
+            <div class="gallery-col gallery-col-left">
+                <div class="gallery-card gallery-card-tall rounded-3 overflow-hidden position-relative" role="img" aria-label="Girl in a stunning red bridal dress">
+                    <img src="https://res.cloudinary.com/dsn3mtgjf/image/upload/v1771148692/girl-in-red-dress_tiuzvw.jpg" alt="Bridal red dress by Anagha Creation" class="gallery-card-img" loading="lazy"/>
+                    <div class="gallery-card-overlay">
+                        <span class="gallery-card-tag">Bridal</span>
+                        <h3 class="gallery-card-title font-serif">Bridal Elegance</h3>
+                        <p class="gallery-card-desc">Custom bridal wear crafted for your special day</p>
+                    </div>
+                </div>
+                <div class="gallery-card rounded-3 overflow-hidden position-relative" role="img" aria-label="Colorful traditional dress">
+                    <img src="https://res.cloudinary.com/dsn3mtgjf/image/upload/v1771149212/colorful-dress_tb4ut2.jpg" alt="Colorful traditional dress by Anagha Creation" class="gallery-card-img" loading="lazy"/>
+                    <div class="gallery-card-overlay">
+                        <span class="gallery-card-tag">Traditional</span>
+                        <h3 class="gallery-card-title font-serif">Vibrant Tradition</h3>
+                        <p class="gallery-card-desc">Where bold colors meet timeless craft</p>
                     </div>
                 </div>
             </div>
-            <div class="col-md-6 col-lg-4">
-                <div class="gallery-item rounded overflow-hidden position-relative">
-                    <div class="gallery-img aspect-square" style="background-image: url('https://lh3.googleusercontent.com/aida-public/AB6AXuBlELDm-rUbtknxV-btdsQDEP15LF3qv_anlU4t_33xuwDJY7jn2OxfM69C04xkeDrn-jOZTMDsPh9igXzV_5fkpDIM-2qYLPD4ok47x06rxdg7UOb9h62EBUXD0H0qE4fkPXF2W6CNVvLNQxmurRnBZ4v-kNKPKBvJ7utSbXZ8ZtFQ8dd7093nomL6fMXgIOwWhSrqZcHkvl9N5jdTE5WEYhpLbA8aejMMuCUwpqj2hMKL7PirjhxDwv1RYY-RE_CS8RvluGA_s_wN');"></div>
-                    <div class="gallery-overlay d-flex align-items-center justify-content-center">
-                        <span class="gallery-caption border border-2 border-gold p-3 text-white font-serif fs-4">Intricate Detail</span>
+            <div class="gallery-col gallery-col-center">
+                <div class="gallery-card rounded-3 overflow-hidden position-relative" role="img" aria-label="Red designer blouse with embroidery">
+                    <img src="https://res.cloudinary.com/dsn3mtgjf/image/upload/v1771148340/red-blouse_oxou9g.jpg" alt="Designer red blouse by Anagha Creation" class="gallery-card-img" loading="lazy"/>
+                    <div class="gallery-card-overlay">
+                        <span class="gallery-card-tag">Blouse</span>
+                        <h3 class="gallery-card-title font-serif">Intricate Detail</h3>
+                        <p class="gallery-card-desc">Hand-embroidered designer blouses</p>
+                    </div>
+                </div>
+                <div class="gallery-card gallery-card-tall rounded-3 overflow-hidden position-relative" role="img" aria-label="Small child in a red ethnic outfit">
+                    <img src="https://res.cloudinary.com/dsn3mtgjf/image/upload/v1771149413/smal-kid-in-red_ejj2uo.jpg" alt="Kids ethnic wear by Anagha Creation" class="gallery-card-img" loading="lazy"/>
+                    <div class="gallery-card-overlay">
+                        <span class="gallery-card-tag">Kids Wear</span>
+                        <h3 class="gallery-card-title font-serif">Little Royals</h3>
+                        <p class="gallery-card-desc">Adorable ethnic wear for your little ones</p>
                     </div>
                 </div>
             </div>
-            <div class="col-md-6 col-lg-4">
-                <div class="gallery-item rounded overflow-hidden position-relative">
-                    <div class="gallery-img aspect-3-5" style="background-image: url('https://lh3.googleusercontent.com/aida-public/AB6AXuDPHoXZblIxZ9BU6WQ_zh5LLc7JTjQI0-wUx6ReLQq00k83ZTDzwYIt3z8cCIIihCmsDSnq30X-enYNxTq0I4ompuGuSqDGoS323V8AXRdURsMICBkZOgfKDRvJCOjkTYn7XGrCfnYn8Dxbdk9MkQ1O6L3D_aDyjQHxIhQ-y_SqMYGgJEaTVkLreDSF7x6nMu5qFHZu9FyxbpHEMO81umEmuzUSBGJUPkiuMeMhQnzwJGTl2YJ29S_8n4ELRV2xnpf9SZ2wMBCrmrum');"></div>
-                    <div class="gallery-overlay d-flex align-items-center justify-content-center">
-                        <span class="gallery-caption border border-2 border-gold p-3 text-white font-serif fs-4">Saree Draping</span>
+            <div class="gallery-col gallery-col-right">
+                <div class="gallery-card gallery-card-tall rounded-3 overflow-hidden position-relative" role="img" aria-label="Maroon designer blouse">
+                    <img src="https://res.cloudinary.com/dsn3mtgjf/image/upload/v1771149846/maroon-blouse_gvyev3.jpg" alt="Maroon designer blouse by Anagha Creation" class="gallery-card-img" loading="lazy"/>
+                    <div class="gallery-card-overlay">
+                        <span class="gallery-card-tag">Designer</span>
+                        <h3 class="gallery-card-title font-serif">Rich Maroon</h3>
+                        <p class="gallery-card-desc">Premium fabric meets expert craftsmanship</p>
                     </div>
                 </div>
-            </div>
-            <div class="col-md-6 col-lg-4">
-                <div class="gallery-item rounded overflow-hidden position-relative">
-                    <div class="gallery-img aspect-4-5" style="background-image: url('https://lh3.googleusercontent.com/aida-public/AB6AXuB7zCs9D-Vu_eRh_enK6k2AhoXaFOB3T55OTSZk6N2fOJ8i5wxLIjdYZvRfDXyrP66zJNHr_RIp6J4f_VT5oAOIE_aAqsm-6OuFwp3uouDjwb3yyd58igCkzO63FE5R4NEaxL_lEOB2UJMc1Jt2m2wWF0XcotuERH3r_zf8NShSbGehkW0h8KGSxmpq7UgYxCbfCim62WWT7EdIq-iIr6mUIjbrJjjV1viHhPTLp01PdG0IvQr9vZeLun3p1TM-_vzoLxUFXw04o15P');"></div>
-                    <div class="gallery-overlay d-flex align-items-center justify-content-center">
-                        <span class="gallery-caption border border-2 border-gold p-3 text-white font-serif fs-4">Rich Fabrics</span>
-                    </div>
-                </div>
-            </div>
-            <div class="col-md-6 col-lg-4">
-                <div class="gallery-item rounded overflow-hidden position-relative">
-                    <div class="gallery-img aspect-square" style="background-image: url('https://lh3.googleusercontent.com/aida-public/AB6AXuCUJXuq70xnd8FH88bEXbOjvxijzXfgHNCT8VRv28HDA0ZtuOwktXiNg6WTve9xrDdixaR98R7Vcbg50ckYsrwL4MCIrbMMscowsr7OgI7gcrUhDBGTFUTtbs4fe-D2xyjG7o3ru3BmWNa52BM41YisP70tE7x7GDvP0luU6CkswA7jSN5L15Qv3E5wr8Du5quEwp97o9g1lCuMy_jv4h7RzbbOHR-zfWA88k2wmc-faTKKayYNQ7GgSVjQS5V2IxwuQKMRhdvJl4hD');"></div>
-                    <div class="gallery-overlay d-flex align-items-center justify-content-center">
-                        <span class="gallery-caption border border-2 border-gold p-3 text-white font-serif fs-4">Accessories</span>
-                    </div>
-                </div>
-            </div>
-            <div class="col-md-6 col-lg-4">
-                <div class="gallery-item rounded overflow-hidden position-relative">
-                    <div class="gallery-img aspect-3-4" style="background-image: url('https://lh3.googleusercontent.com/aida-public/AB6AXuAbsbj_XVBPVrpv2WFsVt5-CohtyVm2hAkhYhTsiIjbJQTAK0LoxIpBEvwL8LqPA2C9VPTW8RBw7kiZ5e_PuzMUX7FMHfEL_9PhNKl_x_R-St8Y9Pk4z4wYO6oFM6aYTr4vf38RLKv1OFGBWl-KI1zlW-KGFUs8B-FGS_XPalGOaOJmqy04Id2ThlTCzhzjThNRKcfrTOuM3gW14eESR-UEy3L1bT6MdFBvI8kHFf9YdHGoLcQwsSOxE0rbC7PRdGub5PIMVKm2WFHr');"></div>
-                    <div class="gallery-overlay d-flex align-items-center justify-content-center">
-                        <span class="gallery-caption border border-2 border-gold p-3 text-white font-serif fs-4">Fine Stitching</span>
+                <div class="gallery-card rounded-3 overflow-hidden position-relative" role="img" aria-label="Collage of various designs by Anagha Creation">
+                    <img src="https://res.cloudinary.com/dsn3mtgjf/image/upload/v1771150033/colllage_gap84b.jpg" alt="Collection collage by Anagha Creation" class="gallery-card-img" loading="lazy"/>
+                    <div class="gallery-card-overlay">
+                        <span class="gallery-card-tag">Collection</span>
+                        <h3 class="gallery-card-title font-serif">Our Collection</h3>
+                        <p class="gallery-card-desc">A showcase of our finest creations</p>
                     </div>
                 </div>
             </div>
         </div>
     </div>
 </section>
+<div class="lightbox" id="gallery-lightbox" role="dialog" aria-modal="true" aria-label="Image preview">
+    <div class="lightbox-backdrop"></div>
+    <button class="lightbox-close" aria-label="Close">&times;</button>
+    <button class="lightbox-nav lightbox-prev" aria-label="Previous image"><i class="bi bi-chevron-left"></i></button>
+    <button class="lightbox-nav lightbox-next" aria-label="Next image"><i class="bi bi-chevron-right"></i></button>
+    <div class="lightbox-content">
+        <img class="lightbox-img" src="" alt=""/>
+        <div class="lightbox-caption font-serif"></div>
+    </div>
+</div>

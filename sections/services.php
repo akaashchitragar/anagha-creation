@@ -13,7 +13,7 @@
             <div class="col-md-6 col-lg-4">
                 <div class="glass-panel service-card p-4 rounded-3 h-100 position-relative overflow-hidden">
                     <div class="service-icon rounded-circle mb-3 d-flex align-items-center justify-content-center text-primary">
-                        <?php echo file_get_contents(__DIR__ . '/../assets/icons/blouse.svg'); ?>
+                        <?php echo @file_get_contents(__DIR__ . '/../assets/icons/blouse.svg'); ?>
                     </div>
                     <h3 class="font-serif fs-4 fw-bold text-white mb-1">Designer Blouse</h3>
                     <p class="text-white-60 small mb-3">डिझायनर ब्लाउज</p>
@@ -23,7 +23,7 @@
             <div class="col-md-6 col-lg-4">
                 <div class="glass-panel service-card p-4 rounded-3 h-100 position-relative overflow-hidden">
                     <div class="service-icon rounded-circle mb-3 d-flex align-items-center justify-content-center text-primary">
-                        <?php echo file_get_contents(__DIR__ . '/../assets/icons/lehenga.svg'); ?>
+                        <?php echo @file_get_contents(__DIR__ . '/../assets/icons/lehenga.svg'); ?>
                     </div>
                     <h3 class="font-serif fs-4 fw-bold text-white mb-1">Bridal Ghagra</h3>
                     <p class="text-white-60 small mb-3">ब्रायडल घागरा</p>
@@ -33,7 +33,7 @@
             <div class="col-md-6 col-lg-4">
                 <div class="glass-panel service-card p-4 rounded-3 h-100 position-relative overflow-hidden">
                     <div class="service-icon rounded-circle mb-3 d-flex align-items-center justify-content-center text-primary">
-                        <?php echo file_get_contents(__DIR__ . '/../assets/icons/kurta.svg'); ?>
+                        <?php echo @file_get_contents(__DIR__ . '/../assets/icons/kurta.svg'); ?>
                     </div>
                     <h3 class="font-serif fs-4 fw-bold text-white mb-1">Kruti and Chudidar Tops</h3>
                     <p class="text-white-60 small mb-3">कुर्ती आणि चुडीदार टॉप्स</p>
@@ -43,7 +43,7 @@
             <div class="col-md-6 col-lg-4">
                 <div class="glass-panel service-card p-4 rounded-3 h-100 position-relative overflow-hidden">
                     <div class="service-icon rounded-circle mb-3 d-flex align-items-center justify-content-center text-primary">
-                        <?php echo file_get_contents(__DIR__ . '/../assets/icons/saree.svg'); ?>
+                        <?php echo @file_get_contents(__DIR__ . '/../assets/icons/saree.svg'); ?>
                     </div>
                     <h3 class="font-serif fs-4 fw-bold text-white mb-1">Nau Vari</h3>
                     <p class="text-white-60 small mb-3">नववरी साडी</p>
@@ -53,7 +53,7 @@
             <div class="col-md-6 col-lg-4">
                 <div class="glass-panel service-card p-4 rounded-3 h-100 position-relative overflow-hidden">
                     <div class="service-icon rounded-circle mb-3 d-flex align-items-center justify-content-center text-primary">
-                        <?php echo file_get_contents(__DIR__ . '/../assets/icons/child-wear.svg'); ?>
+                        <?php echo @file_get_contents(__DIR__ . '/../assets/icons/child-wear.svg'); ?>
                     </div>
                     <h3 class="font-serif fs-4 fw-bold text-white mb-1">Kids Wear</h3>
                     <p class="text-white-60 small mb-3">लहान मुलांचे कपडे</p>
@@ -63,7 +63,7 @@
             <div class="col-md-6 col-lg-4">
                 <div class="glass-panel service-card p-4 rounded-3 h-100 position-relative overflow-hidden">
                     <div class="service-icon rounded-circle mb-3 d-flex align-items-center justify-content-center text-primary">
-                        <?php echo file_get_contents(__DIR__ . '/../assets/icons/scissors.svg'); ?>
+                        <?php echo @file_get_contents(__DIR__ . '/../assets/icons/scissors.svg'); ?>
                     </div>
                     <h3 class="font-serif fs-4 fw-bold text-white mb-1">Alterations</h3>
                     <p class="text-white-60 small mb-3">अल्टरेशन</p>
