@@ -11,7 +11,7 @@ $page_modified = date('c');
     <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
     <title>Anagha Creation | Designer Blouses & Bridal Wear Kolhapur</title>
     <meta name="description" content="Bespoke fashion and custom apparel in Kolhapur. Designer blouses, bridal wear, sarees. Where tradition meets elegance."/>
-    <meta name="keywords" content="Anagha Creation, Anagha Creation photos, Anagha Fashion, Anagha Fashions, Anaqacreation, designer blouses Kolhapur, bridal wear Kolhapur, custom blouse, bridal ghagra, sarees Kolhapur, Indo-Western wear, bespoke fashion, custom apparel, fashion designer Kolhapur, ethnic wear, alterations, Rajarampuri"/>
+    <meta name="keywords" content="Anagha Creation, Anagha Blouses, Anagha Creation photos, best tailor in Kolhapur, designer tailor, Anaqacreation, Anagha Creations, Anagha Fashion, Anagha Fashions, fashion designer in Kolhapur, designer blouses Kolhapur, bridal wear Kolhapur, custom blouse, bridal ghagra, sarees Kolhapur, Indo-Western wear, bespoke fashion, custom apparel, ethnic wear, alterations, Rajarampuri"/>
     <meta name="robots" content="index, follow, max-image-preview:large, max-snippet:-1, max-video-preview:-1"/>
     <meta name="googlebot" content="index, follow"/>
     <meta name="author" content="Anagha Creation"/>
